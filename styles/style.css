@@ -8,11 +8,32 @@ footer p{
     height: 30px;
     padding: 20px;
 }
+footer{
+    position: fixed;
+    bottom: 0;
+}
 
-bottom{
+.naglowek{
+    background-color: lightslategray;
+    position: fixed;
+    top: 0;
+    width: 800px;
+}
+
+.naglowek *{
+    display: inline;
+    margin: 30px;
+}
+
+.naglowek nav{
+ margin-right: auto;
+}
+
+.bottom{
     background-color: #3882F6;
     padding: 10px 24px;
-    margin: 40px 100px;
+    margin: 10px 100px;
+    border-radius: 20px;
 }
 
 .main{
@@ -26,13 +47,33 @@ bottom{
     margin-left: 20px;
     max-width: 300px;
     margin-top: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     
 }
 body{
     width: 800px;
-    margin: 0 auto;
+    margin: 80px auto;
 }
+.images{
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.koniecstrony {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 50px;
+   margin-bottom: 150px;
+   background-color: lightslategray;
+}
+.images div{
+   /* flex: 1;*/
+}
+
 /*{
     border: 2px solid green;
 }
