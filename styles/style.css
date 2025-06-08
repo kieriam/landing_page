@@ -68,7 +68,9 @@ body{
    justify-content: center;
    gap: 50px;
    margin-bottom: 150px;
-   background-color: lightslategray;
+   background-color: lightsteelblue;
+   padding:50px;
+   border-radius: 15px;
 }
 .images div{
    /* flex: 1;*/
